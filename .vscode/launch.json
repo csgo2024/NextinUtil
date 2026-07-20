@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:NextinUtil}",
+            "name": "Debug NextinUtil",
+            "target": "NextinUtil",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug NextinUtil"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:NextinUtil}",
+            "name": "Release NextinUtil",
+            "target": "NextinUtil",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release NextinUtil"
+        }
+    ]
+}
